@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flace Privacy Policy</title>
+    <style>
+        /* Loading Screen Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            transition: opacity 0.5s ease;
+        }
+        .loading-screen.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+        .loading-text {
+            font-size: 1.5em;
+            color: #333;
+        }
+        /* Privacy Policy Styles */
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading" class="loading-screen">
+        <div class="loading-text">Loading...</div>
+    </div>
+
+    <!-- Privacy Policy Content -->
+    <div class="content">
+        <h1>Privacy Policy for Flace</h1>
+        <p>Effective Date: August 2, 2024</p>
+        
+        <h2>Introduction</h2>
+        <p>Welcome to Flace, a Discord bot. This Privacy Policy explains how we collect, use, and safeguard your information when you use our bot. Please read this policy carefully. If you do not agree with the terms of this policy, please do not use Flace.</p>
+        
+        <h2>Information We Collect</h2>
+        <p>Flace may collect the following types of information:</p>
+        <ul>
+            <li><strong>User Data:</strong> Data about your interactions with Flace, including messages and commands.</li>
+            <li><strong>Server Data:</strong> Information about the servers Flace operates in, such as server ID and role information.</li>
+        </ul>
+        
+        <h2>How We Use Your Information</h2>
+        <p>We use the information we collect to:</p>
+        <ul>
+            <li>Provide and improve the services and functionality of Flace.</li>
+            <li>Ensure the security and integrity of our bot.</li>
+            <li>Respond to user inquiries and provide customer support.</li>
+        </ul>
+        
+        <h2>Data Security</h2>
+        <p>We take appropriate measures to protect your information from unauthorized access, alteration, disclosure, or destruction. However, please be aware that no method of transmission over the internet or electronic storage is completely secure.</p>
+        
+        <h2>Your Choices</h2>
+        <p>You have the option to limit the amount of data shared with Flace by adjusting your Discord settings or by removing the bot from your server.</p>
+        
+        <h2>Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date. Your continued use of Flace following the posting of changes constitutes your acceptance of such changes.</p>
+        
+        <h2>Contact Us</h2>
+        <p>If you have any questions or concerns about this Privacy Policy, please contact us at <a href="mailto:support@flacebot.com">support@flacebot.com</a>.</p>
+    </div>
+
+    <script>
+        // Hide loading screen after content is loaded
+        window.addEventListener('load', function() {
+            document.getElementById('loading').classList.add('hidden');
+        });
+    </script>
+</body>
+</html>
